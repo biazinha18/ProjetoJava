@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de emprestimo</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+     <div id="main-container">
+        <form id="register-form">
+        <h1>Simulador de emprestimo </h1>
+        <input id="textoValor" type="text" placeholder="Valor do bem">
+        <input id="textoEntrada" type="text" placeholder="Valor da entrada">
+        <input id="textoTaxaJuros" type="text" placeholder="taxa de juros">
+        <input id="textoPrazo" type="text" placeholder="Prazo em meses">
+        <div class="full-box">
+            <input type="submit" name="btn-submit" value="Calcular" >
+        
+        </div>
+        
+
+        <p></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>N. Parcela</th>
+                    <th>Valor da Parcela</th>
+                    <th>Amortizaçao</th>
+                    <th>Juros</th>
+                    <th>Saldo  devedor</th>
+                </tr>
+            </thead>
+        </table>
+
+        </form>
+        </div>
+
+
+        <script type="module" src="financiamento.js"></script>
+</body>
+</html>
